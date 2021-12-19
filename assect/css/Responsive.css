@@ -1,0 +1,294 @@
+
+/* Header section responsive  */
+
+@media (max-width: 992px) {
+    header {
+        height: 80px;
+    }
+    header .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+
+  /* Header section responsive  */
+
+  /* Navigation section responsive */
+  @media (max-width: 1200px) {
+    nav .container .nav-right ul {
+        margin-right: 0;
+    }
+    nav .container .nav-right a button {
+        display: none;
+    }
+  }
+  @media (max-width: 992px) {
+    nav .container .bar {
+        display: block;
+    }
+    nav .container .bar i {
+        position: relative;
+        z-index: 3;
+        display: block;
+    }
+    nav .container .nav-right ul {
+        flex-direction: column;
+        position: absolute;
+        right: 100%;
+        top: 0;
+        z-index: 2;
+        background: #555;
+        height: 100vh;
+        width: 100%;
+        align-items: center;
+        margin-top: 80px;
+        justify-content: center;
+        transition: all 0.5s ease;
+    }
+    nav .container .nav-right ul li a,
+    nav .container .nav-right ul li {
+        font-size: 18px;
+        color: #fff;
+        margin-top: 20px;
+    }
+    nav .container .nav-right ul.active {
+        right: 0;
+    }
+    nav .container .nav-right ul li ul {
+        top: -40px;
+    }
+  }
+  /* Navigation section responsive */
+
+  /* Hero section responsive */
+  @media (max-width: 1200px) {
+  .hero-section .container h3 {
+      font-size: 50px;
+  }
+  .hero-section .container p {
+      font-size: 16px;
+  }
+  }
+  /* Hero section responsive */
+
+  /* Service section responsive */
+  @media (max-width: 1200px) {
+  .service_section .container .box {
+      width: auto;
+      margin-bottom: 20px;
+  }
+  .service_section {
+    height: auto;
+}
+}
+@media (max-width: 992px) {
+    .service_section .container {
+        grid-template-columns: 1fr;
+    }
+}
+  /* Service section responsive */
+
+  /* Health section responsive */
+
+  @media (max-width: 1200px) {
+    .health .container .image-box {
+        width: 400px;
+    }
+    .health .container .image-box img {
+        width: 280px;
+    }
+    .health .container .health-right {
+        width: 50%;
+    }
+  }
+  @media (max-width: 992px) {
+    .health .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .health .container .health-right {
+        margin-top: 40px;
+        width: 100%;
+    }
+  }
+.health .container .image-box img {
+    width: 300px;
+}
+@media (max-width: 576px) {
+    .health .container .image-box .im_1 {
+        display: none;
+    }
+    .health .container .health-right h3 {
+        font-size: 30px;
+    }
+    .health .container .image-box {
+        width: 100%;
+        height: 400px;
+    }
+    .health .container .image-box img {
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+    }
+}
+  /* Health section responsive */
+
+  /* Departments section responsive */
+
+  @media (max-width: 1200px) {
+    .departments .container .dep-box {
+        width: 290px;
+        height: 380px;
+    }
+    .departments .container .dep-box .top-part {
+        width: 100%;
+        height: 200px;
+    }
+    
+  }
+  @media (max-width: 992px) {
+    .departments .container .bx-container {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .departments .container .dep-box .top-part {
+        width: 100%;
+        height: 240px;
+    }
+    .departments .container .dep-box {
+        width: 350px;
+        height: 430px;
+    }
+}
+@media (max-width: 768px) {
+    .departments .container .bx-container {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .departments .container .dep-box {
+        width: 100%;
+        height: 430px;
+    }
+}
+@media (max-width: 576px) {
+    .departments .titl {
+        font-size: 30px;
+    }
+    .departments .des br {
+        display: none;
+    }
+}
+  /* Departments section responsive */
+
+  /* Testimonial section responsive */
+  @media (max-width: 992px) {
+    .testimonials .container .testimonial p br {
+        display: none;
+    }
+  }
+  /* Testimonial section responsive */
+
+  /* Business section responsive */
+  @media (max-width: 992px) {
+  .business .layout .container {
+      flex-direction: column;
+  }
+  .business .layout {
+      height: 550px;
+  }
+  .business .layout .container .left {
+      margin-left: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .business .layout .container img {
+    margin-right: 0;
+    margin-top: 40px;
+  }
+  .business .layout .container .left i {
+      font-size: 50px;
+  }
+  }
+  @media (max-width: 576px) {
+    .business .layout .container img {
+        width: 100%;
+        height: 350px;
+        margin-top: 0px;
+    }
+    .business .layout .container .left p {
+        font-size: 14px;
+    }
+  }
+  @media (max-width: 768px) {
+    .business .tab {
+        height: auto;
+    }
+    .business .tab .container {
+        flex-direction: column;
+    }
+    .business .tab .container .tab-btn {
+        width: 100%;
+    }
+  }
+  /* Business section responsive */
+
+  /* Doctors section responsive */
+  @media (max-width: 768px) {
+  .doctor .container .doctor_title h3 {
+    font-size: 30px;
+  }
+  .doctor .container .doctor_title {
+      flex-direction: column;
+  }
+}
+  /* Doctors section responsive */
+
+  /* Emergency contact section responsive */
+  @media (max-width: 1200px) {
+    .emergency_contact {
+        flex-direction: column;
+    }
+    .emergency_contact .left {
+        width: 100%;
+    }
+    .emergency_contact .right {
+        width: 100%;
+    }
+  }
+  @media (max-width: 768px) {
+    .emergency_contact .btn-info {
+        margin-left: 0;
+    }
+    .emergency_contact .left {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .emergency_contact .right {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .emergency_contact .info,
+    .emergency_contact .btn-info {
+        margin-left: 10%;
+    }
+  }
+
+  /* Emergency contact section responsive */
+
+  /* footer section responsive */
+  @media (max-width: 992px) {
+    .footer .container .container-bx {
+        grid-template-columns: 2fr 1fr;
+    }
+  }
+  @media (max-width: 576px) {
+    .footer .container .container-bx {
+        grid-template-columns: 1fr;
+        margin-left: 10%;
+    }
+  }
+  /* footer section responsive */
